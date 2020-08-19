@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import { Switch, Route } from 'react-router-dom'
 import Header from './components/Header';
-import Feed from './components/Feed'
+import Feed from './components/Feed.js'
 import Profile from './components/Profile'
 import ArticleView from './components/ArticleView'
 import Editor from './components/Editor'
