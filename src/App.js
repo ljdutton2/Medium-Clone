@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import { Switch, Route } from 'react-router-dom'
 import Header from './components/Header';
 import Feed from './components/Feed.js'
-import Profile from './components/Profile'
+import Profile from './components/Profile.js'
 import ArticleView from './components/ArticleView'
 import Editor from './components/Editor'
 import requireAuthentication from './utils/requireAuth'
