@@ -17,8 +17,6 @@ export default function configureStore(preloadedState) {
     reducer(history),
     preloadedState,
     compose(applyMiddleware(routerMiddleware(history), thunk))
-  ); // root reducer with router state // for dispatching history actions
-  // ... other middlewares ...
-
+  ); 
   return store;
 }

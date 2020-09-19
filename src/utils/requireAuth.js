@@ -11,7 +11,7 @@ export default function (Conmponent) {
         }
         render () {
             return(
-            <Conmponent {...this.props} />
+            <Component {...this.props} />
             )
         }   
     }

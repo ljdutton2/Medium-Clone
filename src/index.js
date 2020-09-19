@@ -25,7 +25,7 @@ if(localStorage.Auth) {
 
     var _id = JSON.parse(localStorage.Auth)._id
     getUser(_id).then((res)=>{
-        //console.log(JSON.parse(res))
+        console.log(JSON.parse(res))
         store.dispatch({type: 'SET_USER', user: res})
     })
 }
